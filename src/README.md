@@ -32,6 +32,15 @@ A FastAPI application that enables Slalom consultants to register their capabili
    - Alternative documentation: http://localhost:8000/redoc
    - Capabilities Dashboard: http://localhost:8000/
 
+## Running Tests
+
+Install the test dependencies and run the suite from the repository root:
+
+```
+pip install -r requirements.txt
+pytest
+```
+
 ## API Endpoints
 
 | Method | Endpoint                                                          | Description                                                         |
